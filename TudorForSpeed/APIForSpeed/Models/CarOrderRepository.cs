@@ -20,13 +20,14 @@ namespace APIForSpeed.Models
         public void Create(CarOrderClass NewOrder)
         {
             _context.List_CarOrder.Add(NewOrder);
-            _context.SaveChangesAsync();
+            _context.SaveChanges();
         }
 
         public CarOrderClass FindByID(int ID)
         {
-            return _context.List_CarOrder.FirstOrDefault(t => t.OrderID == ID);
+            return _context.List_CarOrder.FirstOrDefault(x => x.OrderID == ID);
         }
+
         public List<CarOrderClass> SeeAllOrders()
         {
             return _context.List_CarOrder.ToList();

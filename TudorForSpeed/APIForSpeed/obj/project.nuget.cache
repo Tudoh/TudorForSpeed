@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "W3V1FuVNBagHxg3rqo/G3xk1S2mLqspY1EQxfmH7Ql/ffNxKWujhGNINDxV0GEuSvnrofz1CxRoVGZYB5hljDA==",
+  "dgSpecHash": "vhCvKTdyHB0vhL5i5R0o4cfEdVaQqRkoW6hbF/zd9mIfCyORU25ngjfqhRv8rpFZtTs68tmhVgX9qkyRgwCV5w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\elena\\Source\\Repos\\TudorForSpeed\\TudorForSpeed\\APIForSpeed\\APIForSpeed.csproj",
+  "projectFilePath": "C:\\Users\\elena\\source\\repos\\TudorForSpeed\\TudorForSpeed\\APIForSpeed\\APIForSpeed.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\elena\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\elena\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

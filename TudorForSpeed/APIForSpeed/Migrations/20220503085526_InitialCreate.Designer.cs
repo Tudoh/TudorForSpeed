@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace APIForSpeed.Migrations
 {
     [DbContext(typeof(APIDBContext))]
-    [Migration("20220502222344_InitialCreate")]
+    [Migration("20220503085526_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

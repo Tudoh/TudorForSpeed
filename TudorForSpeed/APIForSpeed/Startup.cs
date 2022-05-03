@@ -35,6 +35,7 @@ namespace APIForSpeed
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "APIForSpeed", Version = "v1" });
             });
+
             services.AddDbContext<APIDBContext>(options =>
                 options.UseSqlite(
                     Configuration.GetConnectionString("APIContextConnection")));

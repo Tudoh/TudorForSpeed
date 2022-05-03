@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\elena\\Source\\Repos\\TudorForSpeed\\TudorForSpeed\\TudorForSpeed\\TudorForSpeed.csproj": {}
+    "C:\\Users\\elena\\source\\repos\\TudorForSpeed\\TudorForSpeed\\TudorForSpeed\\TudorForSpeed.csproj": {}
   },
   "projects": {
-    "C:\\Users\\elena\\Source\\Repos\\TudorForSpeed\\TudorForSpeed\\TudorForSpeed\\TudorForSpeed.csproj": {
+    "C:\\Users\\elena\\source\\repos\\TudorForSpeed\\TudorForSpeed\\TudorForSpeed\\TudorForSpeed.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\elena\\Source\\Repos\\TudorForSpeed\\TudorForSpeed\\TudorForSpeed\\TudorForSpeed.csproj",
+        "projectUniqueName": "C:\\Users\\elena\\source\\repos\\TudorForSpeed\\TudorForSpeed\\TudorForSpeed\\TudorForSpeed.csproj",
         "projectName": "TudorForSpeed",
-        "projectPath": "C:\\Users\\elena\\Source\\Repos\\TudorForSpeed\\TudorForSpeed\\TudorForSpeed\\TudorForSpeed.csproj",
+        "projectPath": "C:\\Users\\elena\\source\\repos\\TudorForSpeed\\TudorForSpeed\\TudorForSpeed\\TudorForSpeed.csproj",
         "packagesPath": "C:\\Users\\elena\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\elena\\Source\\Repos\\TudorForSpeed\\TudorForSpeed\\TudorForSpeed\\obj\\",
+        "outputPath": "C:\\Users\\elena\\source\\repos\\TudorForSpeed\\TudorForSpeed\\TudorForSpeed\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\elena\\AppData\\Roaming\\NuGet\\NuGet.Config",

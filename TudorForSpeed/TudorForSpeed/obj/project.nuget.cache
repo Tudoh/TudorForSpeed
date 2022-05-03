@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KgeAWyDcqBW2FymR3UQi4CjPRNoY9k2CDXzDmCKobGeRyL9oc0eqxH1s2a/gvZY9gQd7iIr+0KRsPkmy0H6XhQ==",
+  "dgSpecHash": "ODkOIyuU8wvVM6GTy0bKL5htzq4WBRFXW/xQdKSpjD+k6CM2OjGvhihmDTklNRyoN46DXd/ko/XeW5m++qOkMQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\elena\\Source\\Repos\\TudorForSpeed\\TudorForSpeed\\TudorForSpeed\\TudorForSpeed.csproj",
+  "projectFilePath": "C:\\Users\\elena\\source\\repos\\TudorForSpeed\\TudorForSpeed\\TudorForSpeed\\TudorForSpeed.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\elena\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\elena\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.16\\microsoft.aspnetcore.cryptography.internal.5.0.16.nupkg.sha512",

@@ -21,8 +21,8 @@ namespace APIForSpeed.Controllers
         [HttpPost("/Create")]
         public CarOrderClass AddCarList([FromBody] CarOrderClass NewOrder)
         {
-            _Order.Create(NewOrder);
-            return NewOrder;
+                _Order.Create(NewOrder);
+                return NewOrder;
         }
 
         [HttpGet]
@@ -31,8 +31,7 @@ namespace APIForSpeed.Controllers
             return _Order.SeeAllOrders();
         }
 
-
-        [Swashbuckle.AspNetCore.Annotations.SwaggerOperation(Summary = "You can Use ID for find a Order in the database")]
+        [Swashbuckle.AspNetCore.Annotations.SwaggerOperation(Summary = "Cerca Ordine")]
         [HttpGet("/SearchOrders {ID}")]
         public IActionResult GetOrder(int ID)
         {
