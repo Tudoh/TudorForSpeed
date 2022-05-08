@@ -1,0 +1,446 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.TFS_TeslaClose{display: none;}
+
+header{
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    padding: 10px 20px;
+    top: 0;
+    z-index: 2;
+    width: 100%;
+}
+
+a.logo{
+    height: 12px;
+    width: 100px;
+    color: black;
+    font-size: 22px;
+}
+
+header a{
+    color: black;
+    font-size: 22px;
+}
+
+header nav a{
+    text-decoration: none;
+    padding: 10px 10px;
+}
+
+header nav.TFS_TeslaCenter{
+    text-align: center ;
+    font-weight: bold;
+}
+
+header nav.TFS_TeslaCenter a{
+    font-size: 46px;
+}
+
+header nav.TFS_TeslaCenter a:hover{
+  color: black;
+}
+
+.TFS_TeslaRight{
+    text-align: right;
+    padding: 5px 20px;
+}
+
+.TFS_TeslaMenu{
+    display: none;
+}
+/**/
+.TFSTS_ContainerStats{
+    border-radius: 50%;
+    background: linear-gradient(145deg, #ff5771, #bd8080);
+    box-shadow:  36px 36px 72px #b37979,
+                -36px -36px 72px #ff5771;
+    width: 150px;
+    height: 150px;
+    margin: 600px -70px auto auto;
+}
+
+.TFSTS_Container{
+    margin: 20px 0 0 0;
+    text-align: center;
+    height: 100vh;
+}
+
+.TFSTS_Container section{
+    width: 100%;
+    margin: 0 auto 0 auto;
+    height: 700px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.TFSTS_Container h1{
+    padding: 20px;
+    font-weight: bold;
+    color: white;
+    font-size: 3rem;
+}
+
+.TFSTS_ContainerImg{
+    border-radius: 50px;
+    text-align: center;
+    display: grid;
+    grid-template-rows: min-content auto min-content;
+}
+
+.TFSTS_ContainerStats{
+    margin: 600px auto auto auto;
+}
+
+.TFSTS_ContainerStats a{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    margin: 40px;
+    display: block;
+}
+.homecarshow{
+    height: 100vh;
+}
+
+.homecarshow img{
+  width: 100%;
+  height: 100vh;
+}
+
+/* Create two unequal columns that floats next to each other */
+.TFSTS_VideoPlayCol {
+    float: left;
+    padding: 10px;
+    max-height: 54vh;/* Should be removed. Only for demonstration */
+  }
+
+    .TFSTS_VideoPlayCol video {
+        width: 100%;
+        height: 100%;
+    }
+
+    .TFSTS_VideoPlayCol img {
+        width: 100%;
+        height: 100%;
+    }
+
+  .TFSTS_VideoPlayColVideo {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  .TFSTS_VideoPlayColText {
+    width: 40%;
+    color: white;
+    background: black;
+    height: 100%;
+  }
+
+  .TFSTS_VideoPlayColText > p, h2{
+    padding: 15% 10% 0 10%;
+    font-size: 26px;
+    text-align: left;
+    
+  }
+  
+  /* Clear floats after the columns */
+  .TFSTS_VideoPlayRow:after {
+    content: "";
+    display: table;
+    width: 100%;
+    clear: both;
+  }
+
+  .TSF_ContentImg{
+    width: 400px;
+    height: 260px;
+    border-radius: 50px;
+    background: #5735a7;
+    box-shadow:  -20px 20px 60px #4a2d8e,
+                 20px -20px 60px #643dc0;
+    top: 3%;
+    left: 4%;
+    position: relative;
+  }
+
+  .TSF_ContentImg:hover{
+    animation: shake 2s;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
+  .title-custom{
+    text-align: center;
+    padding: 20px;
+    color: #4a2d8e;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.woow{
+    width: 100%;
+    height: 80vh;
+    background-image: url("../Img/Tesla/PowerTrain.jpg");
+}
+
+.TSF_ContentImg p{
+    font-size: 22px;
+    padding: 20px;
+    color: white;
+}
+
+.TFSTS_ImgCol{
+    float: left;
+    padding: 10px;
+    max-height: 54vh;
+}
+
+.TFSTS_Section_Img {
+    width: 50%;
+    color: white;
+    background: black;
+    height: 100%;
+  }
+
+  .statsteslas{
+      background-image: url("/Site/Img/TeslaS/stats.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 100vh;
+  }
+
+  
+  .carousel-item-section{
+    height: 100vh;
+    width: 100%;
+}
+
+/* From uiverse.io by @Cornerstone-04 */
+.box {
+    width: 200px;
+    height: auto;
+    float: left;
+    transition: .5s linear;
+    position: relative;
+    display: block;
+    overflow: hidden;
+    padding: 15px;
+    text-align: center;
+    margin: 0 5px;
+    background: transparent;
+    text-transform: uppercase;
+    font-weight: 900;
+  }
+  
+  .box:before {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 0;
+    height: 4px;
+    width: 100%;
+    border-bottom: 4px solid transparent;
+    border-left: 4px solid transparent;
+    box-sizing: border-box;
+    transform: translateX(100%);
+  }
+  
+  .box:after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    border-top: 4px solid transparent;
+    border-right: 4px solid transparent;
+    box-sizing: border-box;
+    transform: translateX(-100%);
+  }
+  
+  .box:hover {
+    box-shadow: 0 10px 30px rgba(255, 0, 0, 0.5);
+  }
+  
+  .box:hover:before {
+    border-color: black;
+    height: 100%;
+    transform: translateX(0);
+    transition: .3s transform linear, .3s height linear .3s;
+  }
+  
+  .box:hover:after {
+    border-color: black  ;
+    height: 100%;
+    transform: translateX(0);
+    transition: .3s transform linear, .3s height linear .5s;
+  }
+  
+  button {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background: transparent;
+  }
+
+  /* From uiverse.io by @meermubashar */
+.gang {
+    width: 200px;
+    height: auto;
+    float: left;
+    transition: .5s linear;
+    position: relative;
+    display: block;
+    overflow: hidden;
+    padding: 15px;
+    text-align: center;
+    margin: 0 5px;
+    background: transparent;
+    text-transform: uppercase;
+   }
+   
+   .gang::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 5px;
+    height: 100%;
+    background-color: black;
+    z-index: -1;
+    transition: all 0.5s;
+   }
+   
+   .gang:hover a{
+       color: white;
+       font-weight: bold;
+   }
+   .gang > a{
+       text-decoration: none;
+   }
+
+   .gang:hover::before {
+    width: 100%;
+   }
+
+   /* From uiverse.io by @alexreyes091 */
+.cardCustom {
+    width: 400px;
+    height: 340px;
+    transform: rotate(90deg);
+    background: #00BCD4;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    transition-duration: 1.5s;
+    transition-property: width, height,transform;
+    margin: 3% 5%;
+   }
+   
+   .cardCustom:hover {
+    width: 450px;
+    height: 320px;
+    transform: rotate(0deg);
+     /* -ms-transform:rotate(90deg);
+     -webkit-transform:rotate(90deg); */
+   }
+   
+   .cardCustom__content {
+    padding: 1rem;
+    font-size: 24px;
+   }
+   
+   .cardCustom__date {
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: .5rem;
+    font-weight: 700;
+   }
+   
+   .cardCustom__info {
+    width: 100%;
+    height: 250px;
+    padding: .7rem;
+    font-size: smaller;
+    border-radius: 1rem;
+    text-align: center;
+    background-color: #fae4c3;
+    color: #fae4c3;
+    transition-duration: 1s;
+    transition-property: color;
+   }
+   
+   .cardCustom__info:hover {
+    color: #212121;
+   }
+
+   .FinalCard{
+     height: auto;
+     display: flex;
+   }
+
+   .FinalCarStats_AutoPilot{
+     display: block;
+     width: 100%;
+     height: 20vh;
+     padding: 30px;
+   }
+
+   .FinalCarStats{
+     border: 1px solid black;
+     height: 30rem;
+     width: 30rem;
+     grid-template-rows: max-content;
+   }
+
+   .FinalCarStats_Video video{
+     width: 100%;
+   }
+   
+   .FinalCarStats_Video > p{
+     font-size: 22px;
+     text-align:  center;
+     padding: 5px;
+   }
+
+      
+   .FinalCarStats_Video > h3{
+     text-align: center;
+    padding: 20px;
+  }
+
+  .Finale{
+    padding: 30px;
+    text-align: center;
+    width: 100%;
+    color: white;
+    background-color: black;
+  }
+
+@media (min-width: 768px) {
+    .TFS_TeslaClose {
+        display: initial;
+    }
+}

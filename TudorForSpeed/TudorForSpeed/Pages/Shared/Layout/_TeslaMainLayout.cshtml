@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <!-- Title -->
+    <title>TudorForSpeed x Tesla</title>
+
+    <!-- Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+
+    <!-- Link -->
+    <link rel="stylesheet" href="~/Css/Tesla.css" asp-append-version="true">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <a asp-area="" asp-page="" class="logo">
+            <svg class="tds-icon tds-icon-logo-wordmark tds-site-logo-icon" viewBox="0 0 342 35" xmlns="http://www.w3.org/2000/svg"><path d="M0 .1a9.7 9.7 0 007 7h11l.5.1v27.6h6.8V7.3L26 7h11a9.8 9.8 0 007-7H0zm238.6 0h-6.8v34.8H263a9.7 9.7 0 006-6.8h-30.3V0zm-52.3 6.8c3.6-1 6.6-3.8 7.4-6.9l-38.1.1v20.6h31.1v7.2h-24.4a13.6 13.6 0 00-8.7 7h39.9v-21h-31.2v-7h24zm116.2 28h6.7v-14h24.6v14h6.7v-21h-38zM85.3 7h26a9.6 9.6 0 007.1-7H78.3a9.6 9.6 0 007 7zm0 13.8h26a9.6 9.6 0 007.1-7H78.3a9.6 9.6 0 007 7zm0 14.1h26a9.6 9.6 0 007.1-7H78.3a9.6 9.6 0 007 7zM308.5 7h26a9.6 9.6 0 007-7h-40a9.6 9.6 0 007 7z" fill="currentColor"></path></svg>
+        </a>
+        <nav class="TFS_TeslaCenter TFS_TeslaClose">
+            <a asp-area="" asp-page="./TeslaModelS">Model S</a>
+            <a asp-area="" asp-page="./TeslaModel3">Model 3</a>
+            <a asp-area="" asp-page="./TeslaModelX">Model X</a>
+            <a asp-area="" asp-page="./TeslaModelY">Model Y</a>
+        </nav>
+        <nav class="TFS_TeslaRight">
+            <a asp-area="Identity" asp-page="./Account/Login" class="TFS_TeslaClose">Account</a>
+            <a asp-area="" id="menuBtn">Menu</a>
+        </nav>
+    </header>
+    <div class="backdrop"></div>
+    <aside>
+        <button class="close">&times;</button>
+        <a asp-area="" asp-page="./Index">Home</a>
+        <h2>TESLA</h2>
+        <a asp-area="" asp-fragment="ShowModelS">Model S</a>
+        <a asp-area="" asp-fragment="ShowModel3">Model 3</a>
+        <a asp-area="" asp-fragment="ShowModelX">Model X</a>
+        <a asp-area="" asp-fragment="ShowModelY">Model Y</a>
+
+        <h2>CUPRA</h2>
+        <a asp-area="">Formentor</a>
+        <a asp-area="">Leon</a>
+        <a asp-area="">Leon Sportstourer</a>
+        <a asp-area="">Ateca</a>
+        <a asp-area="">Born</a>
+
+        <h2>FORD</h2>
+        <a asp-area="">Mustang Mach-E</a>
+
+        <h2>LEXUS</h2>
+        <a asp-area="">UX 300e</a>
+
+        <h2>PORSCHE</h2>
+        <a asp-area="">Taycan</a>
+        <a asp-area="">Taycan Cross Turismo</a>
+    </aside>
+
+    @RenderBody()
+    <script src="~/js/TeslaJS.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <!-- Title -->
+    <title>TudorForSpeed</title>
+
+    <!-- Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+
+    <!-- Link -->
+    <link rel="stylesheet" href="~/Css/Index.css" asp-append-version="true">
+
+    <!-- Script -->
+    <script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script>
+</head>
+<body>
+
+    <div id="TFS_Navbar">
+        <ul id="TFS_Navul">
+            <li>
+                <a asp-area="" asp-page="./Html/TeslaMain">Tesla</a>
+                <ul>
+                    <li>
+                        <a asp-area="" asp-page="./Html/TeslaModelS">Model S</a>
+                    </li>
+                    <li>
+                        <a asp-area="" asp-page="./Html/TeslaModel3">Model 3</a>
+                    </li>
+                    <li>
+                        <a asp-area="" asp-page="./Html/TeslaModelX">Model X</a>
+                    </li>
+                    <li>
+                        <a asp-area="" asp-page="./Html/TeslaModelY">Model Y</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a asp-area="" >Cupra</a>
+                <ul>
+                    <li>
+                        <a asp-area="" >Formentor</a>
+                    </li>
+                    <li>
+                        <a asp-area="" >Leon</a>
+                    </li>
+                    <li>
+                        <a asp-area="" >Leon Sportstourer</a>
+                    </li>
+                    <li>
+                        <a asp-area="" >Ateca</a>
+                    </li>
+                    <li>
+                        <a asp-area="" >Born</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a asp-area="" >FORD</a>
+                <ul>
+                    <li>
+                        <a asp-area="" >Mustang Mach-E</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a asp-area="" >LEXUS</a>
+                <ul>
+                    <li>
+                        <a asp-area="" >UX 300e</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a asp-area="" >PORSCHE</a>
+                <ul>
+                    <li>
+                        <a asp-area="" >Taycan</a>
+                    </li>
+                    <li>
+                        <a asp-area="" >Taycan Cross Turismo</a>
+                    </li>
+                </ul>
+            </li>
+            <li style="float: right;">
+                <a asp-area="" style="color: #435775;">Account</a>
+            </li>
+        </ul>
+    </div>
+
+    @RenderBody()
+    <script src="~/js/IndexJS.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

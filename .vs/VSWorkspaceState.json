@@ -3,8 +3,11 @@
     "",
     "\\TudorForSpeed",
     "\\TudorForSpeed\\APIForSpeed",
-    "\\TudorForSpeed\\APIForSpeed\\Controllers"
+    "\\TudorForSpeed\\APIForSpeed\\Controllers",
+    "\\TudorForSpeed\\TudorForSpeed",
+    "\\TudorForSpeed\\TudorForSpeed\\Pages",
+    "\\TudorForSpeed\\TudorForSpeed\\Pages\\Shared"
   ],
-  "SelectedNode": "\\TudorForSpeed\\APIForSpeed\\Controllers\\CarOrderController.cs",
+  "SelectedNode": "\\TudorForSpeed\\TudorForSpeed\\Pages\\Shared\\_Layout.cshtml",
   "PreviewInSolutionExplorer": false
 }

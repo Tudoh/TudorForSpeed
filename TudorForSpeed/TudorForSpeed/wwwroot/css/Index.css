@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("../Img/Background.png");
+    padding: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#TFS_Navbar{
+    position: relative;
+}
+
+#TFS_Navbar::after{
+    display: block;
+    height: 0;
+}
+
+#TFS_Navul{
+    position: relative;
+    float: left;
+    width: 100%;
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(22, 22, 23, 0.37);
+    backdrop-filter: blur(4px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    padding: 18px 30px;
+}
+
+#TFS_Navul, #TFS_Navul ul{
+    list-style: none;
+}
+
+#TFS_Navul > li{
+    float: left;
+    position: relative;
+    perspective: 1000px;
+}
+
+#TFS_Navul a{
+    display: block;
+    position: relative;
+    z-index: 10;
+    padding: 13px 20px 13px 20px;
+    text-decoration: none;
+    color: white;
+    line-height: 1;
+    font-size: 22px;
+    background: transparent;
+    font-weight: bold;
+    transition: all 0.25s ease-in-out;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#TFS_Navul > li:hover > a{
+    text-shadow: none;
+}
+
+#TFS_Navul > li > ul > li > a:hover{
+    color: #2F4858;
+}
+
+#TFS_Navul li ul{
+    position: absolute;
+    left: 0;
+    z-index: 1;
+    width: 200px;
+    padding: 0;
+    opacity: 0;
+    visibility: hidden;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    background: transparent;
+    overflow: hidden;
+    transform-origin: 50%;
+}
+
+#TFS_Navul li:hover ul{
+    padding: 15px 0;
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(22, 22, 23, 0.37);
+    backdrop-filter: blur(4px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 10px;
+    opacity: 1;
+    width: 300px;
+    visibility: visible;
+}
+
+/* Items in index pages */
+.OrdiniStats{
+    position: relative;
+    margin: 200px 100px auto auto;
+    background-color: red;
+    height: 350px;
+    width: 350px;
+    border-radius: 50px;
+    border-radius: 50px;
+    background: linear-gradient(145deg, #cacaca, #f0f0f0);
+    box-shadow:  41px 41px 82px #5a5a5a,
+                 -41px -41px 82px #ffffff;
+}
+
+.OrdiniStats h2{
+    color: #BE76A3;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 20px;
+    text-align: center;
+}
+
+.OrdiniStats hr{
+    width: 75%;
+    margin: auto;
+    border-radius: 5%;
+    border: 1px solid #2F4858;
+}
+
+.OrdiniStats img{
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: 10px auto;
+    border-radius: 50%
+}
+
+.OrdiniStats p{
+    font-size: 22px;
+    padding: 20px 50px;
+    color: rgb(67, 87, 117);
+    text-align: left;
+}
+
+.ShowRow{
+    max-width: 400px;
+    position: relative;
+    margin: auto;
+}
+
+
+.bx{
+    color: #916E9E;
+}
+
+.prev, .next{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.mySlides{
+    display: none;
+}
+
+.showfirst{
+    display: block;
+}
+
+.mySlides img{
+    vertical-align: middle;
+}
+
+.next{
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover{
+    font-weight: bold;
+    color: #2F4858;
+}
