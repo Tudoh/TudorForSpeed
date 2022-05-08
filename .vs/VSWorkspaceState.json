@@ -6,8 +6,9 @@
     "\\TudorForSpeed\\APIForSpeed\\Controllers",
     "\\TudorForSpeed\\TudorForSpeed",
     "\\TudorForSpeed\\TudorForSpeed\\Pages",
-    "\\TudorForSpeed\\TudorForSpeed\\Pages\\Shared"
+    "\\TudorForSpeed\\TudorForSpeed\\Pages\\Shared",
+    "\\TudorForSpeed\\TudorForSpeed\\Pages\\Shared\\Layout"
   ],
-  "SelectedNode": "\\TudorForSpeed\\TudorForSpeed\\Pages\\Shared\\_Layout.cshtml",
+  "SelectedNode": "\\TudorForSpeed\\TudorForSpeed\\Pages\\Index.cshtml.cs",
   "PreviewInSolutionExplorer": false
 }

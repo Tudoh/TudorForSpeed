@@ -1,0 +1,216 @@
+﻿@page
+@model TudorForSpeed.Pages.Html.TeslaModel.TeslaModelXModel
+@{
+    Layout = "~/Pages/Shared/LayoutTesla/_TeslaModelsLayout.cshtml";
+}
+
+<header>
+    <button class="learn-more buttongoback">
+      <span class="circle" aria-hidden="true">
+      <span class="icon arrow"></span>
+      </span>
+      <span class="button-text">Learn More</span>
+    </button>
+    <nav class="TFS_TeslaCenter TFS_TeslaClose">
+        <a asp-area="" asp-page="">Model X (119.990€)</a>
+    </nav>
+    <nav class="TFS_TeslaRight">
+        <a asp-area="" asp-page="">
+            <span class="box">
+                Order Now
+            </span>
+        </a>
+    </nav>
+</header>
+
+<div class="TFSTS_Container">
+    <section class="homecarshow">
+        <img src="~/Img/TeslaX/teslamodelx.jpg" alt="">
+    </section>
+</div>
+
+<!-- Carousel -->
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <section class="carousel-item-section statsteslas">
+                <img src="~/Img/TeslaX/3.png" class="d-block w-100" alt="...">
+            </section>
+        </div>
+        <div class="carousel-item">
+            <section class="carousel-item-section">
+                <img src="~/Img/TeslaX/internidavanti.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Interni sedili davanti</h5>
+                </div>
+            </section>
+        </div>
+        <div class="carousel-item">
+            <section class="carousel-item-section">
+                <img src="~/Img/TeslaX/internidietro.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Interni sedili dietro</h5>
+                </div>
+            </section>
+        </div>
+        <div class="carousel-item">
+            <section class="carousel-item-section">
+                <img src="~/Img/TeslaX/tesladimensioni.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Vista dall'alto'</h5>
+                </div>
+            </section>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+<h1 class="title-custom">Specifiche Tesla Model S</h1>
+<!--Primo video-->
+<div class="TFSTS_VideoPlayRow perfectslideshowimg">
+    <div class="TFSTS_VideoPlayCol TFSTS_VideoPlayColVideo">
+        <div class="TFSTS_Section_VideoPlay">
+            <img src="~/Img/TeslaX/esperienzacinematografica.jpg" alt="" />
+        </div>
+    </div>
+    <div class="TFSTS_VideoPlayCol TFSTS_VideoPlayColText">
+        <h2>
+            Esperienza cinematografica
+        </h2>
+        <p>
+            Il display touchscreen da 17" inclinabile a destra e a sinistra ha una risoluzione di 2200x1300 ed è caratterizzato da colori realistici e un'eccezionale reattività per videogiochi, film e molto altro.
+        </p>
+    </div>
+</div>
+<!--Secondo video-->
+<div class="TFSTS_VideoPlayRow perfectslideshowimg">
+    <div class="TFSTS_VideoPlayCol TFSTS_VideoPlayColVideo">
+        <div class="TFSTS_Section_VideoPlay">
+            <img src="~/Img/TeslaX/focusallaguida.jpg" alt="" />
+        </div>
+    </div>
+    <div class="TFSTS_VideoPlayCol TFSTS_VideoPlayColText">
+        <h2>
+            Focus sulla guida
+        </h2>
+        <p>
+            Focus estremo sulla guida: niente leve o selettori. Model X è il SUV migliore da guidare, e da cui farsi guidare.
+        </p>
+    </div>
+</div>
+<!--Terzo video-->
+<div class="TFSTS_VideoPlayRow perfectslideshowimg">
+    <div class="TFSTS_VideoPlayCol TFSTS_VideoPlayColVideo">
+        <div class="TFSTS_Section_VideoPlay">
+            <img src="~/Img/TeslaX/ambienteperfetto.jpg" alt="" />
+        </div>
+    </div>
+    <div class="TFSTS_VideoPlayCol TFSTS_VideoPlayColText">
+        <h2>
+            Ambiente perfetto
+        </h2>
+        <p>
+            Impianto di condizionamento pulito, potente ed invisibile. Climatizzatore tri-zona, sedili ventilati e filtro dell'aria HEPA sono di serie.
+        </p>
+    </div>
+</div>
+<!--Quarto video-->
+<div class="TFSTS_VideoPlayRow perfectslideshowimg">
+    <div class="TFSTS_VideoPlayCol TFSTS_VideoPlayColVideo">
+        <div class="TFSTS_Section_VideoPlay">
+            <img src="~/Img/TeslaX/abitacolospazioso.jpg" alt="" />
+        </div>
+    </div>
+    <div class="TFSTS_VideoPlayCol TFSTS_VideoPlayColText">
+        <h2>
+            Sedili della seconda fila ridisegnati
+        </h2>
+        <p>
+            Model X offre un abitacolo spazioso dotato del parabrezza panoramico più grande al mondo e sedili per ospitare fino a sette persone.
+        </p>
+    </div>
+</div>
+
+<section class="woow">
+    <div class="cardCustom">
+        <div class="cardCustom__content">
+            <div class="cardCustom__date">
+                Hover me - Powertrain
+            </div>
+            <div class="cardCustom__info">
+                <p>
+                    I pianali di Model X uniscono le tecnologie di powertrain e batterie per garantire prestazioni, autonomia ed efficienza senza rivali. L'architettura termica rivista del modulo e del pacco batterie consente una ricarica più rapida e assicura maggiore potenza e resistenza in tutte le condizioni.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="FinalContent">
+    <div class="FinalCarStats_AutoPilot">
+        <h1 style="color: gray;">Autopilot Tesla ("Il futuro alla guida")</h1>
+        <p>
+            Tesla ha ideato un autopilot il quale sarebbe considerato da loro il "futuro della guida", infatti l'auto pilot ti permette di sterzare, accelerare e frenare automaticamente nella propria coris asotto la tua supervisione attiva.
+            Inoltre graizie agli aggiornamenti software over-the-air, le piu' recenti migliorie sono sempre disponibili all'istante.
+            <BR>
+            ATTENZIONE: La guida autonoma al massimo potenziale introduce funzionalità aggiuntive e migliora quelle esistenti per rendere la tua auto più agile nel tempo e include:
+        </p>
+    </div>
+    <div class="FinalCard">
+        <div class="FinalCarStats">
+            <div class="FinalCarStats_Video">
+                <video src="~/Img/Tesla/navigateonautopilotmp4.mp4" muted loop autoplay></video>
+                <h3>Navigate on autopilot</h3>
+                <p>
+                    Orientamento attivo nel comportamento allo svincolo
+                </p>
+            </div>
+        </div>
+        <div class="FinalCarStats">
+            <div class="FinalCarStats_Video">
+                <video src="~/Img/Tesla/CambioCorsia.mp4" muted loop autoplay></video>
+                <h3>Cambio di corsia automatico</h3>
+                <p>
+                    Cambi di corsia automatici durante la guida in autostrada
+                </p>
+            </div>
+        </div>
+        <div class="FinalCarStats">
+            <div class="FinalCarStats_Video">
+                <video src="~/Img/Tesla/Autopark.mp4" muted loop autoplay></video>
+                <h3>Autopark</h3>
+                <p>
+                    Parcheggio parallelo e perpendicolare con un solo tocco
+                </p>
+            </div>
+        </div>
+        <div class="FinalCarStats">
+            <div class="FinalCarStats_Video">
+                <video src="~/Img/Tesla/Summon.mp4" muted loop autoplay></video>
+                <h3>Summoner</h3>
+                <p>
+                    Richiama la tua auto da te
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="Finale">
+    <p>Sito web solamente a scopo didattico creato da Daniele Tudorachi 5IC</p>
+</footer>
+
+<script src="~/js/TeslaModelXY.js"></script>

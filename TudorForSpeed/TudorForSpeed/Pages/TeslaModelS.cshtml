@@ -1,0 +1,224 @@
+﻿@page
+@model TudorForSpeed.Pages.Html.TeslaModel.TeslaModelSModel
+@{
+    Layout = "~/Pages/Shared/LayoutTesla/_TeslaModelsLayout.cshtml";
+}
+
+<header>
+    <button class="learn-more buttongoback">
+        <span class="circle" aria-hidden="true">
+            <span class="icon arrow"></span>
+        </span>
+        <span class="button-text">Learn More</span>
+    </button>
+    <nav class="TFS_TeslaCenter TFS_TeslaClose">
+        <a asp-area="" asp-page="">Model S (104.990€)</a>
+    </nav>
+    <nav class="TFS_TeslaRight">
+        <a asp-area="" asp-page="">
+            <span class="box">
+                Order Now
+            </span>
+        </a>
+    </nav>
+</header>
+
+<div class="TFSTS_Container">
+    <section class="homecarshow">
+        <img src="~/Img/TeslaS/TeslaS.png" alt="">
+    </section>
+</div>
+
+<!-- Carousel -->
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <section class="carousel-item-section statsteslas">
+                <img src="~/Img/TeslaS/1.png" class="d-block w-100" alt="...">
+            </section>
+        </div>
+        <div class="carousel-item">
+            <section class="carousel-item-section">
+                <img src="~/Img/TeslaS/internidavanti.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Interni sedili davanti</h5>
+                </div>
+            </section>
+        </div>
+        <div class="carousel-item">
+            <section class="carousel-item-section">
+                <img src="~/Img/TeslaS/internidietro.webp" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Interni sedili dietro</h5>
+                </div>
+            </section>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+<h1 class="title-custom">Specifiche Tesla Model S</h1>
+<!--Primo video-->
+<div class="TFSTS_VideoPlayRow perfectslideshow">
+    <div class="TFSTS_VideoPlayCol TFSTS_VideoPlayColVideo">
+        <div class="TFSTS_Section_VideoPlay">
+            <video src="~/Img/Tesla/Display.mp4" muted loop autoplay></video>
+        </div>
+    </div>
+    <div class="TFSTS_VideoPlayCol TFSTS_VideoPlayColText">
+        <h2>
+            Esperienza cinematografica
+        </h2>
+        <p>
+            Il display touchscreen da 17" inclinabile a destra e a sinistra ha una risoluzione di 2200x1300 ed è caratterizzato da colori realistici
+            e un'eccezionale reattività per videogiochi, film e molto altro.
+        </p>
+    </div>
+</div>
+<!--Secondo video-->
+<div class="TFSTS_VideoPlayRow perfectslideshow">
+    <div class="TFSTS_VideoPlayCol TFSTS_VideoPlayColVideo">
+        <div class="TFSTS_Section_VideoPlay">
+            <video src="~/Img/Tesla/VolanteYoke.mp4" muted loop autoplay></video>
+        </div>
+    </div>
+    <div class="TFSTS_VideoPlayCol TFSTS_VideoPlayColText">
+        <h2>
+            Volante Yoke
+        </h2>
+        <p>
+            Un nuovo approccio audace che ti connette davvero alla Model S, offrendo una sensazione dello sterzo migliorata e
+            una visuale libera del cruscotto e della strada davanti al veicolo. Quando premi il freno, la Model S seleziona automaticamente la direzione corretta per iniziare il viaggio.
+        </p>
+    </div>
+</div>
+<!--Terzo video-->
+<div class="TFSTS_VideoPlayRow perfectslideshow">
+    <div class="TFSTS_VideoPlayCol TFSTS_VideoPlayColVideo">
+        <div class="TFSTS_Section_VideoPlay">
+            <video src="~/Img/Tesla/HVAC.mp4" muted loop autoplay></video>
+        </div>
+    </div>
+    <div class="TFSTS_VideoPlayCol TFSTS_VideoPlayColText">
+        <h2>
+            Ambiente perfetto
+        </h2>
+        <p>
+            Le bocchette dell'aria sono nascoste in tutto l'abitacolo, mentre
+            il controllo della temperatura a tre zone, i sedili ventilati e il filtro HEPA contribuiscono a creare l'ambiente perfetto.
+        </p>
+    </div>
+</div>
+<!--Quarto video-->
+<div class="TFSTS_VideoPlayRow perfectslideshow">
+    <div class="TFSTS_VideoPlayCol TFSTS_VideoPlayColVideo">
+        <div class="TFSTS_Section_VideoPlay">
+            <video src="~/Img/Tesla/Sedili.mp4" muted loop autoplay></video>
+        </div>
+    </div>
+    <div class="TFSTS_VideoPlayCol TFSTS_VideoPlayColText">
+        <h2>
+            Sedili della seconda fila ridisegnati
+        </h2>
+        <p>
+            Spazio a sedere per tre adulti, con spazio extra per le gambe, la testa e bracciolo con ricarica wireless integrata.
+        </p>
+    </div>
+</div>
+<!--Quinto video-->
+<div class="TFSTS_VideoPlayRow perfectslideshow">
+    <div class="TFSTS_VideoPlayCol TFSTS_VideoPlayColVideo">
+        <div class="TFSTS_Section_VideoPlay">
+            <video src="~/Img/Tesla/Videogame.mp4" muted loop autoplay></video>
+        </div>
+    </div>
+    <div class="TFSTS_VideoPlayCol TFSTS_VideoPlayColText">
+        <h2>
+            Videogiochi come quelli di una console
+        </h2>
+        <p>
+            Il processore con fino a 10 teraflops di potenza permette un'esperienza di gaming all'interno dell'auto al pari delle più moderne console.
+            Puoi giocare da qualsiasi sedile grazie alla compatibilità con cuffie e controller wireless.
+        </p>
+    </div>
+</div>
+<section class="woow">
+    <div class="cardCustom">
+        <div class="cardCustom__content">
+            <div class="cardCustom__date">
+                Hover me - Powertrain
+            </div>
+            <div class="cardCustom__info">
+                <p>I pianali di Model S uniscono le tecnologie di powertrain e batterie per garantire prestazioni, autonomia ed efficienza senza rivali. L'architettura termica rivista del modulo e del pacco batterie consente una ricarica più rapida e assicura maggiore potenza e resistenza in tutte le condizioni.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="FinalContent">
+    <div class="FinalCarStats_AutoPilot">
+        <h1 style="color: gray;">Autopilot Tesla ("Il futuro alla guida")</h1>
+        <p>
+            Tesla ha ideato un autopilot il quale sarebbe considerato da loro il "futuro della guida", infatti l'auto pilot ti permette di sterzare, accelerare e frenare automaticamente nella propria coris asotto la tua supervisione attiva.
+            Inoltre graizie agli aggiornamenti software over-the-air, le piu' recenti migliorie sono sempre disponibili all'istante.
+            <BR>
+            ATTENZIONE: La guida autonoma al massimo potenziale introduce funzionalità aggiuntive e migliora quelle esistenti per rendere la tua auto più agile nel tempo e include:
+        </p>
+    </div>
+    <div class="FinalCard">
+        <div class="FinalCarStats">
+            <div class="FinalCarStats_Video">
+                <video src="~/Img/Tesla/navigateonautopilotmp4.mp4" muted loop autoplay></video>
+                <h3>Navigate on autopilot</h3>
+                <p>
+                    Orientamento attivo nel comportamento allo svincolo
+                </p>
+            </div>
+        </div>
+        <div class="FinalCarStats">
+            <div class="FinalCarStats_Video">
+                <video src="~/Img/Tesla/CambioCorsia.mp4" muted loop autoplay></video>
+                <h3>Cambio di corsia automatico</h3>
+                <p>
+                    Cambi di corsia automatici durante la guida in autostrada
+                </p>
+            </div>
+        </div>
+        <div class="FinalCarStats">
+            <div class="FinalCarStats_Video">
+                <video src="~/Img/Tesla/Autopark.mp4" muted loop autoplay></video>
+                <h3>Autopark</h3>
+                <p>
+                    Parcheggio parallelo e perpendicolare con un solo tocco
+                </p>
+            </div>
+        </div>
+        <div class="FinalCarStats">
+            <div class="FinalCarStats_Video">
+                <video src="~/Img/Tesla/Summon.mp4" muted loop autoplay></video>
+                <h3>Summoner</h3>
+                <p>
+                    Richiama la tua auto da te
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="Finale">
+    <p>Sito web solamente a scopo didattico creato da Daniele Tudorachi 5IC</p>
+</footer>
+
+<script src="~/js/TeslaModelJS.js"></script>
