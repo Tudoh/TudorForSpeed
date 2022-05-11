@@ -4,7 +4,10 @@ using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading;
 using System.Threading.Tasks;
+using TudorForSpeed.Data;
+using TudorForSpeed.Helper;
 
 namespace TudorForSpeed.Pages
 {
@@ -16,10 +19,13 @@ namespace TudorForSpeed.Pages
         {
             _logger = logger;
         }
-
-        public void OnGet()
+        public List<CarOrder> Show = new List<CarOrder>();
+        public async Task<IActionResult> OnGetAsync()
         {
+            var post = APIForSpeed_API.GetAllOrders().Result.ToList();
+            Show = post;
+            return Page();
+        } 
 
-        }
     }
 }

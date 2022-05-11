@@ -7,8 +7,10 @@
     "\\TudorForSpeed\\TudorForSpeed",
     "\\TudorForSpeed\\TudorForSpeed\\Pages",
     "\\TudorForSpeed\\TudorForSpeed\\Pages\\Shared",
-    "\\TudorForSpeed\\TudorForSpeed\\Pages\\Shared\\Layout"
+    "\\TudorForSpeed\\TudorForSpeed\\Pages\\Shared\\Layout",
+    "\\TudorForSpeed\\TudorForSpeed\\wwwroot",
+    "\\TudorForSpeed\\TudorForSpeed\\wwwroot\\css"
   ],
-  "SelectedNode": "\\TudorForSpeed\\TudorForSpeed\\Pages\\CupraLeon.cshtml",
+  "SelectedNode": "\\TudorForSpeed\\TudorForSpeed\\wwwroot\\css\\TeslaModelStyle.css",
   "PreviewInSolutionExplorer": false
 }

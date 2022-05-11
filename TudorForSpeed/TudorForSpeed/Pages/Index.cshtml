@@ -5,27 +5,20 @@
     Layout = "~/Pages/Shared/Layout/_IndexLayout.cshtml";
 }
 
-<div class="OrdiniStats">
-    <div class="ShowRow">
-        <h2>Ordini recenti</h2>
-        <hr>
-        <div class="mySlides showfirst">
-            <p>
-                Name: (Daniele)<br>
-                Surname: (Tudorachi)<br>
-                Date: (12/02/2022 16:12)<br>
-                Model: Tesla Model Y<br>
-            </p>
-        </div>
-        <div class="mySlides">
-            <p>
-                Name: (Michele)<br>
-                Surname: (Garlini)<br>
-                Date: (12/02/2022 16:12)<br>
-                Model: Tesla Model Y<br>
-            </p>
-        </div>
-        <a onclick="plusSlides(-1)" class="prev" asp-area="" asp-page=""><i class='bx bxs-chevrons-left'></i></a>
-        <a onclick="plusSlides(1)" class="next" asp-area="" asp-page=""><i class='bx bxs-chevrons-right'></i></a>
-    </div>
+<section class="carbackground">
+
+</section>
+
+<div class="list-group">
+        @foreach (var item in Model.Show)
+        {
+            <a asp-page="./Order" class="list-group-item list-group-item-action" aria-current="true">
+                <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">Wooow Nuovo acquisto</h5>
+                    <small>Date: @item.DataOrdine</small>
+                </div>
+                <p class="mb-1">@item.Name @item.Surname ha ordinato @item.Modello</p>
+                <small>Clicami per iniziare anche tu a Ordinare!</small>
+            </a>
+        }
 </div>

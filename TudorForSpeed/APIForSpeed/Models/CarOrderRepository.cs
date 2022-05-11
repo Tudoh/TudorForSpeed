@@ -32,17 +32,6 @@ namespace APIForSpeed.Models
         {
             return _context.List_CarOrder.ToList();
         }
-
-        public void Update(int ID, CarOrderClass item)
-        {
-            var FoundOrder = _context.List_CarOrder.Find(ID);
-            if (FoundOrder == null)
-            {
-                return;
-            }
-            _context.Entry(FoundOrder).CurrentValues.SetValues(item);
-            _context.SaveChanges();
-        }
         public void Delete(int ID)
         {
             var FoundOrder = _context.List_CarOrder.Find(ID);

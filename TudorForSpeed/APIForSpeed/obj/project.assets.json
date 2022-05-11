@@ -1308,11 +1308,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\elena\\Source\\Repos\\TudorForSpeed\\TudorForSpeed\\APIForSpeed\\APIForSpeed.csproj",
+      "projectUniqueName": "C:\\Users\\elena\\source\\repos\\TudorForSpeed\\TudorForSpeed\\APIForSpeed\\APIForSpeed.csproj",
       "projectName": "APIForSpeed",
-      "projectPath": "C:\\Users\\elena\\Source\\Repos\\TudorForSpeed\\TudorForSpeed\\APIForSpeed\\APIForSpeed.csproj",
+      "projectPath": "C:\\Users\\elena\\source\\repos\\TudorForSpeed\\TudorForSpeed\\APIForSpeed\\APIForSpeed.csproj",
       "packagesPath": "C:\\Users\\elena\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\elena\\Source\\Repos\\TudorForSpeed\\TudorForSpeed\\APIForSpeed\\obj\\",
+      "outputPath": "C:\\Users\\elena\\source\\repos\\TudorForSpeed\\TudorForSpeed\\APIForSpeed\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\elena\\AppData\\Roaming\\NuGet\\NuGet.Config",

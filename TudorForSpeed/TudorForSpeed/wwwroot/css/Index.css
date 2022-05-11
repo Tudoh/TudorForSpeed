@@ -4,14 +4,15 @@
     box-sizing: border-box;
 }
 
-body{
+.carbackground {
     background-image: url("../Img/Background.png");
-    padding: 30px 10px;
-    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
-#TFS_Navbar{
+#TFS_Navbar {
     position: relative;
 }
 
@@ -93,20 +94,6 @@ body{
     visibility: visible;
 }
 
-/* Items in index pages */
-.OrdiniStats{
-    position: relative;
-    margin: 200px 100px auto auto;
-    background-color: red;
-    height: 350px;
-    width: 350px;
-    border-radius: 50px;
-    border-radius: 50px;
-    background: linear-gradient(145deg, #cacaca, #f0f0f0);
-    box-shadow:  41px 41px 82px #5a5a5a,
-                 -41px -41px 82px #ffffff;
-}
-
 .OrdiniStats h2{
     color: #BE76A3;
     font-weight: bold;
@@ -182,3 +169,4 @@ body{
     font-weight: bold;
     color: #2F4858;
 }
+

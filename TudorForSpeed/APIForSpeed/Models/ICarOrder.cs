@@ -10,7 +10,6 @@ namespace APIForSpeed.Models
         void Create(CarOrderClass NewOrder);
         CarOrderClass FindByID(int ID);
         List<CarOrderClass> SeeAllOrders();
-        void Update(int id, CarOrderClass item);
         void Delete(int id);
     }
 }

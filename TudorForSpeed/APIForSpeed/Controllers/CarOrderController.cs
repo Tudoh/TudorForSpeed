@@ -25,7 +25,7 @@ namespace APIForSpeed.Controllers
                 return NewOrder;
         }
 
-        [HttpGet]
+        [HttpGet("/GetAll")]
         public IList<CarOrderClass> LoadCarOrderList()
         {
             return _Order.SeeAllOrders();
@@ -41,12 +41,6 @@ namespace APIForSpeed.Controllers
                 return NotFound();
             }
             return new ObjectResult(item);
-        }
-
-        [HttpPut("/UpdateOrder {ID}")]
-        public void Put(int id, [FromBody] CarOrderClass modal)
-        {
-            _Order.Update(id, modal);
         }
 
         [Swashbuckle.AspNetCore.Annotations.SwaggerOperation(Summary = "You can Use ID for delete a order on database")]
