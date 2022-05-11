@@ -435,8 +435,8 @@ header nav.TFS_TeslaCenter a:hover{
     padding: 30px;
     text-align: center;
     width: 100%;
-    color: white;
-    background-color: black;
+    color: black;
+    background-color: white;
   }
 
 @media (min-width: 768px) {
@@ -532,4 +532,10 @@ header nav.TFS_TeslaCenter a:hover{
 
     .buttongoback:hover .button-text {
         color: #fff;
+    }
+
+
+    .FinalContent{
+        color: white;
+        background-color: black;
     }

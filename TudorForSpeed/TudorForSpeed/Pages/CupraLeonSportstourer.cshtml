@@ -1,4 +1,90 @@
 ﻿@page
-@model TudorForSpeed.Pages.CupraLeonSportstourerModel
+@model TudorForSpeed.Pages.CupraLeonSportstourerModel;
 @{
+    Layout = "~/Pages/Shared/LayoutCupra/_CupraModelsLayout.cshtml";
 }
+
+<div id="mySidenav" class="sidenav">
+    <a asp-page="" id="Cupra">Cupra Ateca (39.150€)</a>
+    <a asp-page="./CupraMain" id="GoBack">Go Back <i class='bx bx-arrow-back'></i></a>
+    <a asp-page="" id="OrderNow">OrderNow <i class='bx bxs-shopping-bag'></i></a>
+</div>
+
+<section class="CupraForSection">
+    <img src="~/Img/CupraLeonSportiva/LeonCupraSport.jpg" />
+</section>
+<section class="CupraForSection">
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-interval="8000">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-interval="10000">
+                <img class="d-block" src="~/Img/CupraLeonSportiva/3.png" alt="slide">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+            </div>
+            <div class="carousel-item" data-interval="10000">
+                <img class="d-block" src="~/Img/CupraLeonSportiva/leonsportinternidavanti.jpg" alt="slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Interni Davanti</h5>
+                </div>
+            </div>
+            <div class="carousel-item" data-interval="10000">
+                <img class="d-block" src="~/Img/CupraLeonSportiva/internileonsport.jpg" alt="slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Interni</h5>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next" data-interval="8000">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+</section>
+
+<section class="FinalCupraForSection">
+    <div class="FinalCard">
+        <div class="FinalCarStats finalblack">
+            <div class="FinalCarStats_Video">
+                <img src="~/Img/CupraLeonSportiva/elettricita.jpg" />
+                <h3>Elettricità e potenza incontrano l’eleganza.</h3>
+                <p>
+                    Uno sguardo al futuro della mobilità ibrida. Nuova CUPRA Leon Sportstourer vanta un design esclusivo e dinamico.
+                </p>
+            </div>
+        </div>
+        <div class="FinalCarStats finalblack">
+            <div class="FinalCarStats_Video">
+                <img src="~/Img/CupraLeonSportiva/tecnologiaallavanguardia.jpg" />
+                <h3>Tecnologia all’avanguardia.</h3>
+                <p>
+                    CUPRA Virtual Cockpit da 10,25” e touch screen da 10” con comando vocale Natural Voice Control.
+                </p>
+            </div>
+        </div>
+        <div class="FinalCarStats finalblack">
+            <div class="FinalCarStats_Video">
+                <img src="~/Img/CupraLeonSportiva/motore.jpg" />
+                <h3>Motore e-HYBRID.</h3>
+                <p>
+                    Accelera sulle strade extraurbane e passa alla modalità elettrica in città. Guida elettrica a emissioni zero con un’autonomia di 58 km.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="Finale">
+    <p>Sito web solamente a scopo didattico creato da Daniele Tudorachi 5IC</p>
+</footer>
+

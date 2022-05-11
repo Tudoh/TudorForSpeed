@@ -186,3 +186,9 @@ C:\Users\elena\source\repos\TudorForSpeed\TudorForSpeed\TudorForSpeed\obj\Debug\
 C:\Users\elena\source\repos\TudorForSpeed\TudorForSpeed\TudorForSpeed\obj\Debug\net5.0\Razor\Pages\Shared\Layout\_FordLayout.cshtml.g.cs
 C:\Users\elena\source\repos\TudorForSpeed\TudorForSpeed\TudorForSpeed\obj\Debug\net5.0\Razor\Pages\Shared\Layout\_LexusLayout.cshtml.g.cs
 C:\Users\elena\source\repos\TudorForSpeed\TudorForSpeed\TudorForSpeed\obj\Debug\net5.0\Razor\Pages\Shared\Layout\_PorscheLayout.cshtml.g.cs
+C:\Users\elena\source\repos\TudorForSpeed\TudorForSpeed\TudorForSpeed\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Login.cshtml.g.cs
+C:\Users\elena\source\repos\TudorForSpeed\TudorForSpeed\TudorForSpeed\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Logout.cshtml.g.cs
+C:\Users\elena\source\repos\TudorForSpeed\TudorForSpeed\TudorForSpeed\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Register.cshtml.g.cs
+C:\Users\elena\source\repos\TudorForSpeed\TudorForSpeed\TudorForSpeed\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
+C:\Users\elena\source\repos\TudorForSpeed\TudorForSpeed\TudorForSpeed\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\elena\source\repos\TudorForSpeed\TudorForSpeed\TudorForSpeed\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs

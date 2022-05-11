@@ -1,4 +1,90 @@
 ﻿@page
 @model TudorForSpeed.Pages.CupraBornModel
 @{
+    Layout = "~/Pages/Shared/LayoutCupra/_CupraModelsLayout.cshtml";
 }
+
+<div id="mySidenav" class="sidenav">
+    <a asp-page="" id="Cupra">Cupra Born (38.900€)</a>
+    <a asp-page="./CupraMain" id="GoBack">Go Back <i class='bx bx-arrow-back'></i></a>
+    <a asp-page="" id="OrderNow">OrderNow <i class='bx bxs-shopping-bag'></i></a>
+</div>
+
+<section class="CupraForSection">
+    <img src="~/Img/CupraBorn/BornCupraGang.jpg" />
+</section>
+<section class="CupraForSection">
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-interval="8000">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-interval="10000">
+                <img class="d-block" src="~/Img/CupraBorn/6.png" alt="slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Interni Davanti</h5>
+                </div>
+            </div>
+            <div class="carousel-item" data-interval="10000">
+                <img class="d-block" src="~/Img/CupraBorn/cupraborninternidavanti.jpg" alt="slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Interni Davanti</h5>
+                </div>
+            </div>
+            <div class="carousel-item" data-interval="10000">
+                <img class="d-block" src="~/Img/CupraBorn/cupraborninternidietro.jpg" alt="slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Interni Dietro</h5>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next" data-interval="8000">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+</section>
+
+<section class="FinalCupraForSection">
+    <div class="FinalCard">
+        <div class="FinalCarStats finalblack">
+            <div class="FinalCarStats_Video">
+                <img src="~/Img/CupraBorn/idea.jpg" />
+                <h3>Una nuova idea di energia alla guida</h3>
+                <p>
+                    Una mobilità sostenibile e dinamica, unita a un’innovazione fuori dagli schemi. Scopri l’impulso che si prova alla guida della prima CUPRA 100% elettrica.
+                </p>
+            </div>
+        </div>
+        <div class="FinalCarStats finalblack">
+            <div class="FinalCarStats_Video">
+                <img src="~/Img/CupraBorn/emoziona.jpg" />
+                <h3>Un design che emoziona</h3>
+                <p>
+                    Creata per chi è alla ricerca di emozioni. Linee inconfondibili e finiture sportive, essenza di una visione contemporanea di design.
+                </p>
+            </div>
+        </div>
+        <div class="FinalCarStats finalblack">
+            <div class="FinalCarStats_Video">
+                <img src="~/Img/CupraBorn/cuore.jpg" />
+                <h3>Un cuore tecnologico e intuitivo</h3>
+                <p>
+                    Anima connessa e tecnologia all’avanguardia. Preparati a un’esperienza di guida unica grazie a dotazioni multimediali in grado di stupire².
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="Finale">
+    <p>Sito web solamente a scopo didattico creato da Daniele Tudorachi 5IC</p>
+</footer>

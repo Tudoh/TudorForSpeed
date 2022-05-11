@@ -1,2 +1,121 @@
 ﻿body {
 }
+
+#GoBack, #OrderNow {
+    position: absolute;
+    left: -110px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 150px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+    left: 0px;
+}
+
+#GoBack i{
+    right: 0;
+    font-size: 20px;
+    margin: auto;
+    font-weight: bold;
+    padding: 5px 0 5px 20px;
+}
+
+#Cupra {
+    top: 20px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    left: 0;
+    width: 300px;
+    position: absolute;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+}
+
+#GoBack{
+    top: 80px;
+    background-color: lightcoral;
+}
+
+#OrderNow {
+    top: 140px;
+    background-color: lightgreen;
+}
+
+.CupraForSection {
+    height: 100vh;
+}
+
+.CupraForSection img{
+    width: 100%;
+    height: 100%;
+}
+
+.FinalCard {
+    height: auto;
+    display: flex;
+}
+
+.FinalCarStats_AutoPilot {
+    display: block;
+    width: 100%;
+    height: 20vh;
+    padding: 30px;
+}
+
+.FinalCarStats {
+    border: 1px solid black;
+    width: 100%;
+    height: 100%;
+    grid-template-rows: max-content;
+}
+
+.FinalCarStats_Video video {
+    width: 100%;
+}
+
+.FinalCarStats_Video > p {
+    font-size: 22px;
+    text-align: center;
+    padding: 5px;
+}
+
+
+.FinalCarStats_Video > h3 {
+    text-align: center;
+    padding: 20px;
+}
+
+.Finale {
+    padding: 30px;
+    text-align: center;
+    width: 100%;
+    color: white;
+    background-color: black;
+}
+
+.finalblack{
+    background-color: darkslategrey;
+    color: white;
+    height: 60vh;
+}
+
+.FinalCarStats_Video img {
+    width: 100%;
+}
+
+.FinalCupraForSection {
+    height: auto;
+}
+
+.carousel-item img{
+    height: 100vh;
+}
