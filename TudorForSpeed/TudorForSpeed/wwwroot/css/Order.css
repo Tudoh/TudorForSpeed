@@ -16,7 +16,7 @@ header {
 
 form{
     margin: auto;
-    padding: 25% 25%;
+    padding: 12% 45%;
 }
 
 a.logo {
@@ -140,6 +140,7 @@ aside {
     border: none;
     border-bottom: 1px solid #515151;
     background: transparent;
+    color: white;
 }
 
     .input:focus {
@@ -269,4 +270,19 @@ button:hover .default-btn {
 
 button:hover .hover-btn {
     transform: translate(0%,0%);
+}
+
+.form-group{
+    padding: 10px;
+}
+
+.form-select{
+    height: 40px;
+    font-size: 18px;
+    text-align: center;
+    width: 220px;
+}
+
+body {
+    background-color: rgb(11, 23, 25);
 }
