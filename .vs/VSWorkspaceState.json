@@ -13,6 +13,6 @@
     "\\TudorForSpeed\\TudorForSpeed\\wwwroot",
     "\\TudorForSpeed\\TudorForSpeed\\wwwroot\\css"
   ],
-  "SelectedNode": "\\TudorForSpeed\\TudorForSpeed\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+  "SelectedNode": "\\TudorForSpeed\\TudorForSpeed\\Pages\\Shared\\Layout\\_IdentityLayout.cshtml",
   "PreviewInSolutionExplorer": false
 }
