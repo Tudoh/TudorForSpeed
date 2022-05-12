@@ -1,4 +1,7 @@
 ﻿<!DOCTYPE html>
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
 <html>
 <head>
     <!-- Title -->
@@ -15,6 +18,31 @@
     <script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script>
 </head>
 <body>
+
+    <header>
+        <a asp-area="" asp-page="" class="logo">
+
+        </a>
+        <nav class="TFS_TeslaCenter">
+            <a asp-page="" style="color:black">Account</a>
+        </nav>
+        <nav class="TFS_TeslaRight">
+            @if (SignInManager.IsSignedIn(User))
+            {
+                <a class="nav-link text-dark " asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage" style="padding: 24px 10px">User @User.Identity.Name!</a>
+                <form class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Page("/", new { area = "" })" method="post">
+                    <button type="submit" style="width: 150px; height: 60px; padding: 10px; border: 1px solid black">Logout</button>
+                </form>
+            }
+            else
+            {
+                <a asp-area="Identity" asp-page="/Account/Login">Login</a>
+                <a asp-area="Identity" asp-page="/Account/Register">Register</a>
+            }
+            <a id="menuBtn">Menu</a>
+        </nav>
+    </header>
+
     <!-- Navbar -->
     <div class="backdrop"></div>
     <aside>

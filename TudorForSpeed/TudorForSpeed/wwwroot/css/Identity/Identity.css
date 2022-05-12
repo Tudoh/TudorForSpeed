@@ -153,10 +153,16 @@ aside {
     width: 500px;
 }
 
-    .input:focus {
-        outline-color: white;
-        place-content: "Enter your message!";
-    }
+.text-danger{
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.input:focus {
+    outline-color: white;
+    place-content: "Enter your message!";
+}
 
 .form-group{
     padding: 10px;

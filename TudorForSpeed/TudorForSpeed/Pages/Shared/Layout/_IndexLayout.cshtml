@@ -1,4 +1,7 @@
 ﻿<!DOCTYPE html>
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManage
 <html>
 <head>
     <!-- Title -->
@@ -56,9 +59,23 @@
                     </li>
                 </ul>
             </li>
-            <li style="float: right;">
-                <a asp-area="Identity" asp-page="/Account/Login" style="color: #435775;">Account</a>
-            </li>
+            @if (SignInManager.IsSignedIn(User))
+            {
+                <li style="float: right;">
+                    <form class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Page("/", new { area = "" })" method="post">
+                        <button type="submit" style="width: 150px; height: 60px; padding: 10px; border: 1px solid black; font-size: 24px;background-color: transparent">Logout</button>
+                    </form>
+                </li>
+                <li style="float: right; padding: 6px;">
+                    <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">@User.Identity.Name!</a>
+                </li>
+            }
+            else
+            {
+                <li style="float: right;">
+                    <a asp-area="Identity" asp-page="/Account/Login" style="color: #435775;">Account</a>
+                </li>
+            }
         </ul>
     </div>
 

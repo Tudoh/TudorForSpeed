@@ -2,15 +2,17 @@
   "ExpandedNodes": [
     "",
     "\\TudorForSpeed",
-    "\\TudorForSpeed\\APIForSpeed",
-    "\\TudorForSpeed\\APIForSpeed\\Controllers",
     "\\TudorForSpeed\\TudorForSpeed",
+    "\\TudorForSpeed\\TudorForSpeed\\Areas",
+    "\\TudorForSpeed\\TudorForSpeed\\Areas\\Identity",
+    "\\TudorForSpeed\\TudorForSpeed\\Areas\\Identity\\Pages",
+    "\\TudorForSpeed\\TudorForSpeed\\Areas\\Identity\\Pages\\Account",
     "\\TudorForSpeed\\TudorForSpeed\\Pages",
     "\\TudorForSpeed\\TudorForSpeed\\Pages\\Shared",
     "\\TudorForSpeed\\TudorForSpeed\\Pages\\Shared\\Layout",
     "\\TudorForSpeed\\TudorForSpeed\\wwwroot",
     "\\TudorForSpeed\\TudorForSpeed\\wwwroot\\css"
   ],
-  "SelectedNode": "\\TudorForSpeed\\TudorForSpeed\\wwwroot\\css\\TeslaModelStyle.css",
+  "SelectedNode": "\\TudorForSpeed\\TudorForSpeed\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
   "PreviewInSolutionExplorer": false
 }
